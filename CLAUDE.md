@@ -11,6 +11,7 @@ Quando lavori su qualsiasi progetto web in questo repo, carica e applica **sempr
 - **`.claude/skills/impeccable/`** — polish UI, typography, layout, craft visivo, rifinitura. Applicare come standard di qualità finale su ogni componente.
 - **`.claude/skills/awesome-design-md/`** — 84 brand design reference files (Apple, Linear, Vercel, Stripe, Notion, Spotify, ecc.). Consultare quando si lavora su un brand specifico o si cerca ispirazione stilistica da brand reali.
 - **`.claude/skills/img2threejs/`** — converti immagini di riferimento in modelli Three.js procedurali. Usare quando si lavora con grafica 3D, oggetti Three.js, o si vuole ricostruire un oggetto da una foto in codice.
+- **`.claude/skills/playwright-mcp/`** — browser automation via MCP (Playwright). Usare per testing e2e, scraping, interazione con pagine web, form automation. Si integra come MCP server (`npx @playwright/mcp@latest`).
 
 ### Istruzioni operative
 
@@ -23,6 +24,7 @@ Quando lavori su qualsiasi progetto web in questo repo, carica e applica **sempr
 
 5. **Ispirazione brand/stile** → consulta `.claude/skills/awesome-design-md/<brand>/DESIGN.md` per riferimenti a brand reali (es. apple, linear, vercel, stripe, notion).
 6. **3D / Three.js** → usa img2threejs come skill guidata: parti da `SKILL.md`, poi `grimoire/` e `forge/` per il pipeline di scultura.
+7. **Testing / browser automation** → usa playwright-mcp: configura il server MCP localmente con `npx @playwright/mcp@latest`, poi usa i tool `browser_*` per navigare, cliccare, compilare form e fare screenshot.
 
 ### Standard generali
 
